@@ -12,9 +12,9 @@ const Hero = () => {
         <MatrixRain />
         <DataStream />
       </Suspense>
-      
+
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(26,37,53,0.5)_1px,transparent_1px)] bg-[size:24px_24px] opacity-20 pointer-events-none" />
-      
+
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -30,7 +30,7 @@ const Hero = () => {
             Welcome to my universe
           </span>
         </motion.div>
-        
+
         <motion.h1
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -63,8 +63,8 @@ const Hero = () => {
           transition={{ delay: 0.6 }}
           className="text-xl md:text-2xl text-[#7a8ba0] max-w-2xl mx-auto font-light mt-6"
         >
-          Android Developer <span className="text-[#00f0b5] mx-2">•</span> 
-          AI/ML Enthusiast <span className="text-[#00f0b5] mx-2">•</span> 
+          Android Developer <span className="text-[#00f0b5] mx-2">•</span>
+          AI/ML Enthusiast <span className="text-[#00f0b5] mx-2">•</span>
           <span className="typing-cursor">Problem Solver</span>
         </motion.p>
 
@@ -77,7 +77,7 @@ const Hero = () => {
           <a href="#projects" className="px-8 py-4 rounded-lg bg-[#00f0b5] text-[#0a0f1a] font-bold hover:bg-[#00b386] transition-all flex items-center gap-2 hover:scale-105 active:scale-95 w-full sm:w-auto justify-center shadow-[0_0_20px_rgba(0,240,181,0.3)]">
             View Projects <ExternalLink size={18} />
           </a>
-          <a href="#" className="px-8 py-4 rounded-lg border border-[#00f0b5] text-[#00f0b5] font-bold hover:bg-[rgba(0,240,181,0.1)] transition-all flex items-center gap-2 hover:scale-105 active:scale-95 w-full sm:w-auto justify-center hover:shadow-[0_0_15px_rgba(0,240,181,0.2)]">
+          <a href="/Lakshya_Jaiswal_Resume.pdf" download="Lakshya_Jaiswal_Resume.pdf" className="px-8 py-4 rounded-lg border border-[#00f0b5] text-[#00f0b5] font-bold hover:bg-[rgba(0,240,181,0.1)] transition-all flex items-center gap-2 hover:scale-105 active:scale-95 w-full sm:w-auto justify-center hover:shadow-[0_0_15px_rgba(0,240,181,0.2)]">
             Download Resume <Download size={18} />
           </a>
         </motion.div>
